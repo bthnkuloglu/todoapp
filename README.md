@@ -1,7 +1,7 @@
 # TO-DO APP
 Bu proje kullanıcıların görev ekleyebileceği, düzenleyeceği ve tammalanan görevleri işaretleyip ayrı bir bölümde listelenerek görebileceği basit bir To-Do uygulamasıdır. Projede **HTML**, **CSS** ve **Javascript** kullanılarak geliştirilmiştir.
 
-##Özellikler
+## Özellikler
 1) **Görev Ekleme:** Kullanıcılar input alanına yazdıkları görevleri "Add Task" butonu ya da "Enter" tuşuna basarak listeye ekleyebilirler.
 2) **Görev Düzenleme:** Kullanıcılar ekli olan görevlerin yanında bulunan "Edit" butonu yardımıyla var olan görevlerini güncelleyebilmektedirler. Tamamlanan görevlerin bulunduğu bölümde görevler düzenlenmeye kapalıdır. 
 3) **Görev Tamamlama:** Bir görev tamamlandığı zaman "Complete" butonuyla görev, aktif listeden çıkartılıp üzeri çizilmiş bir şekilde tamamlanmış görevlerin bulunduğu listeye aktarılır.
