@@ -26,7 +26,10 @@ Bu proje kullanıcıların görev ekleyebileceği, düzenleyeceği ve tammalanan
 3. Projeyi tarayıcınızda açarak kullanmaya başlayın.
 
 ## Ekran Görüntüleri
+
+### Masaüstü Görünümü: 
 ![DesktopScreen](https://github.com/user-attachments/assets/b658e86d-1287-402e-8570-900eaa153414)
 
+### Mobil Görünümü:
 ![MobileScreen](https://github.com/user-attachments/assets/e7a28032-5641-461c-9a50-556c1c6a7237)
 
