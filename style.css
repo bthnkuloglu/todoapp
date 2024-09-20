@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6e3535;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #969494;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hidden {
+    display: none;
+}
+
+#warningMessage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff0000;
+    color: white;
+    font-size: 20px;
+    z-index: 999;
+
+}
+
+#warningMessage p {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 200px;
+    padding: 20px;
+
+
+}
+
+input[type="text"] {
+    width: 81%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px;
+    margin-left: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+li.completed {
+    background-color: #d4edda;
+    text-decoration: line-through;
+}
+
+.edit {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    margin-right: 5px;
+}
+
+.edit:hover {
+    background-color: #0056b3;
+}
+
+.delete {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+}
+
+.delete:hover {
+    background-color: #c82333;
+}
+
+.completed-tasks {
+
+    border-top: 3px solid #ccc;
+}
+
+.img {
+    width: 20px;
+    height: 20px;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+    input[type="text"] {
+        width: 97%;
+        padding: 8px;
+    }
+
+    button {
+        padding: 8px;
+        margin-left: 8px;
+    }
+
+    li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    li div {
+        margin-top: 10px;
+        display: flex;
+        justify-content: flex-start;
+        gap: 5px;
+    }
+
+    #addTaskButton {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        margin: 10px;
+        margin-top:50px;
+    }
+
+    input[type="text"] {
+        width: 96%;
+        padding: 6px;
+    }
+
+    button {
+        padding: 6px;
+        margin-left: 5px;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .container {
+        display: none;
+    }
+
+    .hidden {
+        display: block;
+    }
+}
